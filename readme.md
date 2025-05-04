@@ -66,5 +66,38 @@ Tests were performed on a 512×512 grayscale image (`input_image.png`).
 
 ## Visual Inspection
 Reconstructed images with `adaptive` predictors and higher quantization levels (e.g., 32) retain sharp edges and details. Lower quantization (e.g., 8) results in visible artifacts, especially in textured regions.
+original
+![input_image.jpg](input_image.jpg)
 
-![img.png](img.png)
+### order 1
+
+Order1 4 levels
+![order14.jpg](order14.jpg)
+
+order1 16 levels
+![order116.jpg](order116.jpg)
+
+order1 32 levels
+![order132.jpg](order132.jpg)
+
+### order 2
+
+order2 4 levels
+![order24.jpg](order24.jpg)
+
+order2 16 levels
+![order216.jpg](order216.jpg)
+
+order2 32 levels
+![order232.jpg](order232.jpg)
+
+### adaptive
+
+adaptive 4
+![adaptive4.jpg](adaptive4.jpg)
+
+adaptive 16
+![adaptive16.jpg](adaptive16.jpg)
+
+adaptive 32
+![adaptive32.jpg](adaptive32.jpg)
